@@ -1,0 +1,14 @@
+{
+  "name": "portafolio-VinRicci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server ./public -p 3000"
+  },
+  "repository": "git@github.com:url-classes/portafolio-VinRicci.git",
+  "author": "VinRicci <vinicioricci@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

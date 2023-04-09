@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #32292F;
+    display: flex;
+    justify-content: center;
+}
+
+.bar {
+    align-items: center;
+    background-color: #575366;
+    border-radius: 15px;
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    gap: 40px;
+    height: 108px;
+    justify-content: center;
+    margin: 35px;
+    width: 946px;
+}
+
+.container .bar .p{
+    background-color: #575366;
+}
+
+.bar .p{
+    background-color: transparent;
+    justify-content: space-around;
+    margin: 10;
+    padding: 10px 10px;
+    padding: 10px;
+}
+
