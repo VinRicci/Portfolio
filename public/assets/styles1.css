@@ -1,17 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Varela+Round&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0%;
 }
 
-.container{
+.page {
+    background-color: #32292F;
+    text-align: center;
+}
+
+.page .bar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+}
+
+.contenedor{
     background-color: #32292F;
     display: flex;
     justify-content: center;
 }
 
 .bar {
+    align-self: center;
     align-items: center;
     background-color: #575366;
     border-radius: 15px;
@@ -22,8 +38,11 @@
     gap: 40px;
     height: 108px;
     justify-content: center;
-    margin: 35px;
+    margin: 0px 35px 35px ;
     width: 946px;
+    z-index: 9999;
+    position: sticky;
+    top: 20px;
 }
 
 .container .bar .p{
@@ -37,4 +56,55 @@
     padding: 10px 10px;
     padding: 10px;
 }
+
+.box {
+    background-color: #D1E3DD;
+    width: 1440px;
+    height: 705px;
+    border-radius: 10px;
+    align-content: flex-end;
+    
+}
+
+.contenedor:nth-child(2) {
+    display: grid;
+}
+
+.bubble {
+    margin: 50px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    width: 1440px;
+    height: 750px;
+    background: #D1E3DD; 
+    border-color: #D1E3DD;
+}
+.bubble:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 8%;
+    border-top: 120px solid blue;
+    border-top-color: inherit;
+    border-left: 625px solid transparent;
+    border-right: 625px solid transparent;
+    padding-bottom: 50px;
+}
+
+.contenedor:nth-child(3) {
+    padding-top: 150px;
+    display: block;
+}
+
+.contenedor:nth-child(3) .titulo {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.proyectos {
+    display: flex;
+    align-items: center;
+}
+
 
