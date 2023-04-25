@@ -1,0 +1,60 @@
+.page {
+    background-color: #32292F;
+    text-align: center;
+}
+
+.custom-shape-divider-top-1682129052 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.shapetop svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.shapetop .shapefilltop {
+    fill: #6E7DAB;
+}
+
+.contenedor {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+}
+
+.container {
+    background-color: #D9D9D9;
+    height: 15vw;
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+
+.shapebottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.shapebottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.shapebottom .shapefillbottom {
+    fill: #6E7DAB;
+}
