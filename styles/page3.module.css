@@ -1,6 +1,43 @@
 .page {
-    background-color: #32292F;
+    background-color: #EBEBD3;
     text-align: center;
+}
+
+.page .bar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bar {
+    align-self: center;
+    align-items: center;
+    background-color: #575366;
+    border-radius: 15px;
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size:2vw;
+    gap: 40px;
+    height: 108px;
+    justify-content: center;
+    margin: 0px 35px 35px ;
+    width: 80%;
+    z-index: 9999;
+    position: sticky;
+    top: 20px;
+}
+
+.container .bar .p{
+    background-color: #575366;
+}
+
+.bar .p{
+    background-color: transparent;
+    justify-content: space-around;
+    margin: 10;
+    padding: 10px 10px;
+    padding: 10px;
 }
 
 .custom-shape-divider-top-1682129052 {
@@ -24,7 +61,7 @@
 }
 
 .contenedor {
-    background-color: red;
+    background-color: #EBEBD3;
     height: 100%;
     width: 100%;
     align-self: center;
@@ -36,6 +73,7 @@
     width: 100%;
     display: flex;
     align-self: center;
+    border-radius: 30px;
 }
 
 .shapebottom {

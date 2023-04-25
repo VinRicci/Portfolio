@@ -9,7 +9,28 @@ export default function page3 () {
                     <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className={styles.shapefilltop}></path>
                 </svg>
             </div>
+            <nav className={styles.bar}>
+            <p>#Home</p>
+            <p>#About-me</p>
+            <p>#Portfolio</p>
+            <p>#Contact</p>
+            <p>#Blog</p>
+        </nav>
             <div className={styles.contenedor}>
+                <div className={styles.container}>
+                    {/* imagen */}
+                    <div className={styles.info}>
+                        <h2>Titulo</h2>
+                        <p>Descripcion</p>
+                    </div>
+                </div>
+                <div className={styles.container}>
+                    {/* imagen */}
+                    <div className={styles.info}>
+                        <h2>Titulo</h2>
+                        <p>Descripcion</p>
+                    </div>
+                </div>
                 <div className={styles.container}>
                     {/* imagen */}
                     <div className={styles.info}>

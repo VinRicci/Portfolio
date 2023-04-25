@@ -5,6 +5,7 @@
     text-align: center;
 }
 
+
 .page .bar {
     margin-left: auto;
     margin-right: auto;
@@ -67,8 +68,9 @@
     
 }
 
-.contenedor:nth-child(2) {
-    display: grid;
+.contenedor:nth-child(4) {
+    background-color: deeppink;
+    height: 700px;
 }
 
 .bubble {
@@ -83,6 +85,7 @@
     display:grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-items: center;
+    place-items: center;
 }
 .bubble:after {
     content: "";
@@ -94,6 +97,7 @@
     border-left: 75px solid transparent;
     border-right: 75px solid transparent;
     padding-bottom: 50px;
+    
 }
 
 .contenedor:nth-child(3) {
@@ -106,24 +110,74 @@
     margin-bottom: 30px;
 }
 
-.proyectos {
-    display: flex;
-    align-items: center;
+.proyecto {
+    display:grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5px;
+    justify-items: center;
+    place-items: center;
+    height: 800px;
+}
+.proyecto p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: white;
+    padding: 20%;
+    padding-top: 4px;
+    padding-bottom: 0;
+}
+.item {
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+}
+
+.itemp{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: transform .2s;
+}
+
+.itemp:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
 }
 
 .profilec{
     height: 425px;
     width: 425px;
-    background-color: rebeccapurple;
     border-radius: 50%;
 }
 .izqui{
-    background-color: yellowgreen;
     height: 100%;
     width: 100%;
     display:grid;
     place-items: center;
     
+}
+.derec{
+    height: 60%;
+    width: 100%;
+    display:grid;
+    place-items: center;
+    padding-right: 15%;
+    
+}
+.derec p{
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.derec h1{
+    font-size: 3rem;
+}
+
+.titulo{
+    height: 100px;
+    z-index: 10;
 }
 @media only screen and (max-width: 600px) {
     .bar{
@@ -135,7 +189,30 @@
     .bubble{
         margin: 0px;
         padding: 0px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+    .derec{
+        padding-right: 0;
+        height: 100%;
+        
+    }
+    .bubble {
+        height: 1200px;
+    }
+    .bubble:after {
+        content: "";
+        position: relative;
+        top: 100%;
+        left: 3%;
+        border-top: 10;
+        border-top-color: inherit;
+        border-left: 0;
+        border-right: 0;
+        padding-bottom: 0;
+        
+    }
+    .proyecto{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
 }
-
-
