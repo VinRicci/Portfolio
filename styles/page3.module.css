@@ -40,6 +40,16 @@
     padding: 10px;
 }
 
+.enlace {
+    text-decoration: none;
+    appearance: none;
+    color: white;
+}
+
+.enlace:hover {
+    text-decoration: underline;
+}
+
 .custom-shape-divider-top-1682129052 {
     position: absolute;
     top: 0;

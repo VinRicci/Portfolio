@@ -145,6 +145,16 @@
     cursor: pointer;
 }
 
+.enlace {
+    text-decoration: none;
+    appearance: none;
+    color: white;
+}
+
+.enlace:hover {
+    text-decoration: underline;
+}
+
 .profilec{
     height: 425px;
     width: 425px;
