@@ -1,3 +1,7 @@
+.page{
+    background-color: #D1E3DD;
+}
+
 .shapetop {
     position: absolute;
     top: 0;
@@ -12,6 +16,40 @@
     display: block;
     width: calc(100% + 1.3px);
     height: 250px;
+}
+
+
+.container {
+    border: 2px solid black inherit;
+    height: 27vw;
+    width: 90%;
+    display: flex;
+    align-self: center;
+    border-radius: 30px;
+    margin: 5% auto;
+    margin-top: 20%;
+    margin-bottom: 0;
+}
+
+.itemp{
+    width: 30%;
+    height: 80%;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: transform .2s;
+}
+.texto {
+    margin-left: 5%;
+}
+
+
+.container:last-child {
+    flex-direction: row-reverse;
+}
+
+.container:last-child .texto{
+    margin-left: 0;
+    margin-right: 5%;
 }
 
 .shapetop .shapefilltop {
