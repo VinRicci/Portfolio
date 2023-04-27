@@ -97,12 +97,22 @@
     border-radius: 20px;
     border: 2px solid rgb(255, 255, 255);
     transition: transform .2s;
-    margin: 1%;
-    background-color: red;
+    margin: 5%;
 }
-
+.itemp:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+}
 .info{
     margin-top: 3%;
+    text-align: justify;
+    padding-right: 3%;
+}
+.info p{
+    font-size: x-large;
+}
+.info h2{
+    font-size: xx-large;
 }
 
 .shapebottom {

@@ -6,6 +6,7 @@ import docencia from '/images/docencia.png'
 import ad from '/images/AD.jpg'
 import alcancia from 'images/alcancia.png'
 import Link from 'next/link'
+import { FaGithub, FaLinkedin, FaAt } from 'react-icons/fa';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -63,14 +64,17 @@ export default function Home() {
                     <div className={styles.item1}>
                         <h1>Contacto</h1>
                     </div>
-                    <div className={styles.item2}>
+                    <div >
                         <h1>Github</h1>
+                        <FaGithub className={styles.icons}/>
                     </div>
-                    <div className={styles.item3}>
-                        <h1>Github</h1>
+                    <div >
+                        <h1>LinkedIn</h1>
+                        <FaLinkedin className={styles.icons}/>
                     </div>
-                    <div className={styles.item4}>
-                        <h1>Github</h1>
+                    <div >
+                        <h1>Gmail</h1>
+                        <FaAt className={styles.icons}/>
                     </div>
                 </div>
             </div>
