@@ -23,6 +23,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@types/locomotive-scroll": "^4.1.0"
+    "@types/locomotive-scroll": "^4.1.0",
+    "axios": "^1.3.6"
   }
 }
