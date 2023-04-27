@@ -80,11 +80,11 @@
 }
 
 
-.container:last-child {
+.container:nth-child(4) {
     flex-direction: row-reverse;
 }
 
-.container:last-child .texto{
+.container:nth-child(4) .texto{
     margin-left: 0;
     margin-right: 5%;
 }
@@ -104,7 +104,7 @@
 }
 
 .shapebottom {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;

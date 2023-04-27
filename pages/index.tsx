@@ -2,13 +2,16 @@ import { Inter } from 'next/font/google'
 import styles from '/styles/principal.module.css'
 import Image from 'next/image'
 import perfil from '/images/yo.png'
-import img from '/images/perfil.png'
+import docencia from '/images/docencia.png'
+import ad from '/images/AD.jpg'
+import alcancia from 'images/alcancia.png'
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
     return (
+
     <>
     <div className={styles.page}>
         <nav className={styles.bar}>
@@ -41,21 +44,36 @@ export default function Home() {
             <h1 className={styles.titulo}>Portfolio</h1>
             <div className={styles.proyecto}>
                 <div className={styles.item}>
-                    <Link href='/page3'><Image src={img} alt="Imagen1" className={styles.itemp} /></Link>
+                    <Link href='/page3'><Image src={docencia} alt="Imagen1" className={styles.itemp} /></Link>
                     <p>Proyecto que tomaba las asistencias de los estudiantes</p>
                 </div>
                 <div className={styles.item}>
-                    <Link href='page3/#project2'><Image src={img} alt="Imagen1" className={styles.itemp}/></Link>
+                    <Link href='page3/#project2'><Image src={alcancia} alt="Imagen1" className={styles.itemp}/></Link>
                     <p>Flujo de caja que ayuda al usuario a mantener sus finanzas en orden</p>
                 </div>
                 <div className={styles.item}>
-                    <Link href='page3/#project3'><Image src={img} alt="Imagen1" className={styles.itemp}/></Link>
+                    <Link href='page3/#project3'><Image src={ad} alt="Imagen1" className={styles.itemp}/></Link>
                     <p>Active directory que almacena usuarios y otorga permisos</p>
                 </div>
                 </div>
         </div>
-        <div className={styles.contenedor} id='contact'>
-            <h1 className={styles.titulo}>Contacto</h1>
+        <div className={styles.contenedor2} id='contact'>
+            <div className={styles.bubble2}>
+                <div className={styles.grid_container}>
+                    <div className={styles.item1}>
+                        <h1>Contacto</h1>
+                    </div>
+                    <div className={styles.item2}>
+                        <h1>Github</h1>
+                    </div>
+                    <div className={styles.item3}>
+                        <h1>Github</h1>
+                    </div>
+                    <div className={styles.item4}>
+                        <h1>Github</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </>
