@@ -24,9 +24,9 @@ export default function page3 () {
             </nav>
             <div className={styles.contenedor}>
                 <div className={styles.container}>
-                    {/* <Link href='https://github.com/AsistenciaURL/docencia-api-v2'><Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /></Link> */}
+                    <Link href='https://github.com/AsistenciaURL/docencia-api-v2'><Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /></Link>
                     {/* <a href='https://github.com/AsistenciaURL/docencia-api-v2'><Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /></a> */}
-                    <Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} />
+                    {/* <Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /> */}
                     <div className={styles.info} id='project1' >
                         <h2>Proyecto de asistencias en URL</h2>
                         <p id='project2'>El proyecto de asistencias fue realizado para el curso de Administración de proyectos 
