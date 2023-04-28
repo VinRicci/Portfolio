@@ -24,24 +24,37 @@ export default function page3 () {
             </nav>
             <div className={styles.contenedor}>
                 <div className={styles.container}>
+                    {/* <Link href='https://github.com/AsistenciaURL/docencia-api-v2'><Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /></Link> */}
+                    {/* <a href='https://github.com/AsistenciaURL/docencia-api-v2'><Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /></a> */}
                     <Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} />
                     <div className={styles.info} id='project1' >
                         <h2>Proyecto de asistencias en URL</h2>
-                        <p id='project2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus ex eveniet aspernatur commodi consequuntur corporis cupiditate veniam eligendi, inventore dolorum praesentium! Ea sint placeat delectus repellendus, illo nobis laborum nemo!</p>
+                        <p id='project2'>El proyecto de asistencias fue realizado para el curso de Administración de proyectos 
+                        de sistemas, el cual era un programa diseñado para la toma de asistencias, la finalidad era automatizar 
+                        la forma en la que se tomaban las asistencias, haciendo algo más rápido, intuitivo y que no se pudiera falsificar 
+                        la asistencia de dicho día. Para esto se realizó un código QR que expiraba y una aplicación para móvil. Yo estuve 
+                        trabajando en el Backend de la aplicación, el cual fue desarrollado en Prisma.</p>
                     </div>
                 </div>
                 <div className={styles.container}>
+                    {/* <Link href='https://github.com/AlcanciaURL/alcancia-api'><Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /></Link> */}
                     <Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} />
                     <div className={styles.info}>
                         <h2>Proyecto de alcancia</h2>
-                        <p  id='project3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quas dolor a, magnam cum error voluptas autem ut perspiciatis dolores odit excepturi architecto libero quo nostrum, est totam eaque? Iusto.</p>
+                        <p  id='project3'>Es un proyecto para el curso de Ingeniería de software 2, el cual busca erradicar la problemática 
+                        que existe alrededor de los gastos hormiga y la mala planificación en cuanto a las finanzas personales. También se 
+                        implemento un modelo de familia el cual podía hacer ingresos y egresos de toda la familia para un control en conjunto. 
+                        Yo estuve trabajando en el Backend, el cual fue desarrollado en Prisma y NestJS.</p>
                     </div>
                 </div>
                 <div className={styles.container}>
                     <Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} />
                     <div className={styles.info}>
                         <h2>Proyecto de Active Directory</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi tempora eius maxime aperiam pariatur quidem, ad recusandae, expedita ipsam, assumenda quo culpa doloribus totam tenetur omnis sit optio praesentium sed?</p>
+                        <p>Este proyecto fue realizado para el curso de Redes 2 y constaba de montar un sistema de Windows Server virtualizado 
+                            que nos permitiera el control de usuarios y políticas. Esto no se ve en hogares, mas bien es una solución empresarial 
+                            para controlar los accesos de los colaboradores a los archivos, páginas web e instalación de programas. Este tipo de 
+                            solución se ve mucho en call center.</p>
                     </div>
                 </div>
             </div>

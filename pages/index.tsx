@@ -66,15 +66,16 @@ export default function Home() {
                     </div>
                     <div >
                         <h1>Github</h1>
-                        <FaGithub className={styles.icons}/>
+                        <Link href='https://github.com/VinRicci'><FaGithub className={styles.icons}/></Link>
                     </div>
                     <div >
                         <h1>LinkedIn</h1>
-                        <FaLinkedin className={styles.icons}/>
+                        <Link href='https://www.linkedin.com/in/vinicio-ricci-b1729a222/'><FaLinkedin className={styles.icons}/></Link>
                     </div>
                     <div >
                         <h1>Gmail</h1>
-                        <FaAt className={styles.icons}/>
+                        <Link href="mailto:vinicioricci@gmail.com"><FaAt className={styles.icons}/></Link>
+                        {/* <FaAt className={styles.icons}/> */}
                     </div>
                 </div>
             </div>

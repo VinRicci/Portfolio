@@ -77,10 +77,12 @@
 }
 .texto {
     margin-left: 5%;
+    text-align: justify;
 }
 
 
 .container:nth-child(4) {
+    margin-top: 30%;
     flex-direction: row-reverse;
 }
 
@@ -122,4 +124,19 @@
 
 .shapebottom .shapefillbottom {
     fill: #6E7DAB;
+}
+
+@media only screen and (max-width: 900px) { 
+
+    .container:nth-child(4) {
+        margin-top: 30%;
+        flex-direction: row-reverse;
+    }
+
+    .shapebottom svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 250px;
+    }
 }
