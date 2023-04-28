@@ -1,9 +1,9 @@
 import styles from '/styles/page3.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import docencia from '/images/docencia.png'
-import ad from '/images/AD.jpg'
-import alcancia from 'images/alcancia.png'
+import docencia from '/images/2.png'
+import ad from '/images/4.png'
+import alcancia from 'images/3.png'
 import img from '/images/perfil.png'
 
 export default function page3 () {
@@ -24,9 +24,9 @@ export default function page3 () {
             </nav>
             <div className={styles.contenedor}>
                 <div className={styles.container}>
-                    <Link href='https://github.com/AsistenciaURL/docencia-api-v2'><Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /></Link>
+                    <Link href='https://github.com/AsistenciaURL/docencia-api-v2'><Image src={docencia} alt="Imagen1" className={styles.itemp} width={500} height={500} /></Link>
                     {/* <a href='https://github.com/AsistenciaURL/docencia-api-v2'><Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /></a> */}
-                    {/* <Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /> */}
+                    {/* <Image src={docencia} alt="Imagen1" className={styles.itemp} width={500} height={500} /> */}
                     <div className={styles.info} id='project1' >
                         <h2>Proyecto de asistencias en URL</h2>
                         <p id='project2'>El proyecto de asistencias fue realizado para el curso de Administración de proyectos 
@@ -37,8 +37,8 @@ export default function page3 () {
                     </div>
                 </div>
                 <div className={styles.container}>
-                    {/* <Link href='https://github.com/AlcanciaURL/alcancia-api'><Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} /></Link> */}
-                    <Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} />
+                    <Link href='https://github.com/AlcanciaURL/alcancia-api'><Image src={alcancia} alt="Imagen1" className={styles.itemp} width={500} height={500} /></Link>
+                    {/* <Image src={alcancia} alt="Imagen2" className={styles.itemp} width={500} height={500} /> */}
                     <div className={styles.info}>
                         <h2>Proyecto de alcancia</h2>
                         <p  id='project3'>Es un proyecto para el curso de Ingeniería de software 2, el cual busca erradicar la problemática 
@@ -48,7 +48,8 @@ export default function page3 () {
                     </div>
                 </div>
                 <div className={styles.container}>
-                    <Image src={img} alt="Imagen1" className={styles.itemp} width={500} height={500} />
+                <Link href='https://www.quest.com/solutions/active-directory/what-is-active-directory.aspx#:~:text=Active%20Directory%20(AD)%20is%20a,who%27s%20allowed%20to%20do%20what.'><Image src={ad} alt="Imagen1" className={styles.itemp} width={500} height={500} /></Link>
+                    {/* <Image src={ad} alt="Imagen3" className={styles.itemp} width={500} height={500} /> */}
                     <div className={styles.info}>
                         <h2>Proyecto de Active Directory</h2>
                         <p>Este proyecto fue realizado para el curso de Redes 2 y constaba de montar un sistema de Windows Server virtualizado 

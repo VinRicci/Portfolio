@@ -2,9 +2,9 @@ import { Inter } from 'next/font/google'
 import styles from '/styles/principal.module.css'
 import Image from 'next/image'
 import perfil from '/images/yo.png'
-import docencia from '/images/docencia.png'
-import ad from '/images/AD.jpg'
-import alcancia from 'images/alcancia.png'
+import docencia from '/images/2.png'
+import ad from '/images/4.png'
+import alcancia from 'images/3.png'
 import Link from 'next/link'
 import { FaGithub, FaLinkedin, FaAt } from 'react-icons/fa';
 
