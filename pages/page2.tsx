@@ -78,7 +78,7 @@ export default function page2 (props: Props) {
             <div className={styles.container}>
                 <Image src={img} alt="Imagen1" className={styles.itemp} />
                 <div className={styles.texto}>
-                    <h1>Titulo</h1>
+                    <h1>Titulos</h1>
                     <p>Descripcion</p>
                 </div>
             </div>
