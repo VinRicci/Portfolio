@@ -25,7 +25,7 @@ interface Props {
 }
 
 export const getServerSideProps: GetServerSideProps<Props> = async () => {
-    const endpoint = `https://strapi-production-ff73.up.railway.app/api/blogs`;
+    const endpoint = `${process.env.STRAPI_URL}/blogs`;
     const response = await axios.get<StrapiResponse>(endpoint,{
         headers: {
             Authorization: `Bearer ${process.env.STRAPI_TOKEN}`
