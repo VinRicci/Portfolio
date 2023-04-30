@@ -43,12 +43,6 @@ export default function page2 (props: Props) {
     const { posts } = props;
     return (
         <>
-        {/* <section>
-            <h1>Posts</h1>
-            {posts.map(post => (
-                <p key={post.id}>{post.attributes.Title}</p>
-            ))}
-        </section> */}
         <div className={styles.page}>
             <div className={styles.shapetop}>
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -68,11 +62,9 @@ export default function page2 (props: Props) {
                     {posts.map(post => (
                         <h1 key={post.id}>{post.attributes.Title}</h1>
                     ))}
-                    {/* <h1>Titulo</h1> */}
                     {posts.map(post => (
                         <p key={post.id}>{post.attributes.Content}</p>
                     ))}
-                    {/* <p>Descripcion</p> */}
                 </div>
             </div>
             <div className={styles.container}>
