@@ -181,8 +181,11 @@
 .item2 { grid-area: left; }
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
+
 .icons{
     font-size: 7rem;
+    appearance: none;
+    color: black;
 }
 .enlace {
     text-decoration: none;
@@ -224,6 +227,23 @@
 .derec h1{
     font-size: 3rem;
 }
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.icons:hover {
+    border-radius: 3%;
+    animation: 1s ease 0s alternate infinite pulsate;
+    border-color: #fff;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
 
 .titulo{
     height: 100px;

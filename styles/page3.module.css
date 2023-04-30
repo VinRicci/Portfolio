@@ -136,3 +136,32 @@
 .shapebottom .shapefillbottom {
     fill: #6E7DAB;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .itemp {
+        width: 80%;
+        margin: 5% auto;
+    }
+
+    .info {
+        margin-top: 3%;
+        text-align: justify;
+        padding-right: 3%;
+        margin-left: 5%;
+        width: 80%;
+    }
+
+    .info h2 {
+        font-size: large;
+    }
+
+    .info p {
+        font-size: medium;
+    }
+}

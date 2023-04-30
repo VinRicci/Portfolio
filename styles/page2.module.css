@@ -128,15 +128,20 @@
 
 @media only screen and (max-width: 900px) { 
 
-    .container:nth-child(4) {
-        margin-top: 30%;
-        flex-direction: row-reverse;
+    .container {
+        flex-direction: column;
+        height: auto;
+        margin-top: 5%;
     }
-
-    .shapebottom svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 250px;
+    
+    .itemp {
+        width: 80%;
+        height: 40%;
+        margin: 5% auto;
+    }
+    
+    .texto {
+        width: 80%;
+        margin: 5% auto;
     }
 }
