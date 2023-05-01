@@ -1,7 +1,7 @@
 import styles from '/styles/page2.module.css'
 import Image from 'next/image'
 import axios from 'axios';
-import img from '/images/perfil.png'
+import img from '/images/ha.png'
 import Link from 'next/link'
 import { GetServerSideProps } from 'next';
 import { FaArrowLeft } from 'react-icons/fa';

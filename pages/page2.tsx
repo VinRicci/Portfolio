@@ -1,7 +1,7 @@
 import styles from '/styles/page2.module.css'
 import Image from 'next/image'
 import axios from 'axios';
-import img from '/images/perfil.png'
+import img1 from '/images/55555.png'
 import Link from 'next/link'
 import { useEffect, useState } from 'react';
 import { GetServerSideProps } from 'next';
@@ -58,7 +58,7 @@ export default function page2 (props: Props) {
                 <Link href='/page2' className={styles.enlace}>#Blog</Link>
             </nav>
             <div className={styles.container}>
-                <Image src={img} alt="Imagen1" className={styles.itemp} />
+                <Image src={img1} alt="Imagen1" className={styles.itemp} />
                 <div className={styles.texto}>
                     {/* {posts.map(post => (
                         <h1 key={post.id}>{post.attributes.Title}</h1>
