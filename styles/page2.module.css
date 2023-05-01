@@ -97,6 +97,26 @@
     text-decoration: underline;
 }
 
+.icons{
+    font-size: 7rem;
+    appearance: none;
+    color: black;
+    margin-left: 85%;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.icons:hover {
+    animation: 1s ease 0s alternate infinite pulsate;
+}
+
 .shapetop .shapefilltop {
     fill: #6E7DAB;
 }

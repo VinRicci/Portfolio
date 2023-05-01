@@ -3,9 +3,8 @@ import Image from 'next/image'
 import axios from 'axios';
 import img from '/images/perfil.png'
 import Link from 'next/link'
-import { useEffect, useState } from 'react';
 import { GetServerSideProps } from 'next';
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowLeft } from 'react-icons/fa';
 
 interface Post {
     id: number;
@@ -26,7 +25,7 @@ interface Props {
 }
 
 export const getServerSideProps: GetServerSideProps<Props> = async () => {
-    const endpoint = `${process.env.STRAPI_URL}/blogs/${1}`;
+    const endpoint = `${process.env.STRAPI_URL}/blogs/${3}`;
     const response = await axios.get<StrapiResponse>(endpoint,{
         headers: {
             Authorization: `Bearer ${process.env.STRAPI_TOKEN}`
@@ -40,7 +39,7 @@ export const getServerSideProps: GetServerSideProps<Props> = async () => {
     };
 };
 
-export default function page2 (props: Props) {
+export default function blog2 (props: Props) {
     const { posts } = props;
     return (
         <>
@@ -70,7 +69,7 @@ export default function page2 (props: Props) {
                     <p>{posts.attributes.Content}</p>
                 </div>
             </div>
-            <Link href='/blogpt2'><FaArrowRight className={styles.icons}></FaArrowRight></Link>
+            {/* <FaArrowLeft className={styles.icons}></FaArrowLeft> */}
             <div className={styles.shapebottom}>
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M1200 0L0 0 598.97 114.72 1200 0z" className={styles.shapefillbottom}></path>

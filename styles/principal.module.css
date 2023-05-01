@@ -238,10 +238,7 @@
 }
 
 .icons:hover {
-    border-radius: 3%;
     animation: 1s ease 0s alternate infinite pulsate;
-    border-color: #fff;
-    box-shadow: 0px 0px 10px 0px #000;
 }
 
 
