@@ -57,14 +57,12 @@
 
 
 .container {
-    height: 27vw;
+    height: auto;
     width: 90%;
     display: flex;
     align-self: center;
     border-radius: 30px;
     margin: 5% auto;
-    margin-top: 10%;
-    margin-bottom: 0;
 }
 
 .itemp{
@@ -79,9 +77,8 @@
     text-align: justify;
 }
 
-
 .container:nth-child(4) {
-    margin-top: 30%;
+    margin-top: 5%;
     flex-direction: row-reverse;
 }
 
